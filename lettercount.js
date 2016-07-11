@@ -12,4 +12,4 @@ function letterCount(word, letter){
   }
 }
 
-letterCount('The quick brown fox jumps over the lazy dog and the sleeping cat early in the day.', 'X')
+letterCount('Taco xxxxx bell is terrible for you.', 'X')
