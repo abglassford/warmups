@@ -4,13 +4,13 @@ function rampNumbers(num){
   } else {
     var newNum = num.toString()
     for(var i = 1; i < newNum.length; i++){
-      if(newNum[i] <= newNum[i-1]){
+      if(newNum[i] < newNum[i-1]){
         return false
       }
     }
   }
   return true;
 }
-
-console.log(rampNumbers(123454));
-console.log(rampNumbers(123456));
+console.log(rampNumbers(1233334));
+console.log(rampNumbers(1234567));
+console.log(rampNumbers(1234321));
